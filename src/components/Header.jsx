@@ -31,7 +31,7 @@ export default function Header() {
           <img
             src="./logo.png"
             alt="Miller Construction & Consulting Group"
-            className="h-14 w-auto group-hover:opacity-90 transition-opacity duration-300"
+            className="h-20 w-auto group-hover:opacity-90 transition-opacity duration-300"
           />
         </a>
 
