@@ -59,9 +59,16 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-background/40" />
       <div className="absolute inset-0 grid-blueprint opacity-30" />
+      <div
+        className="absolute inset-x-0 bottom-0 h-[55%] pointer-events-none"
+        style={{
+          backgroundImage:
+            'linear-gradient(to top, rgba(231,226,217,0.5) 0%, rgba(231,226,217,0.48) 45%, rgba(231,226,217,0.35) 60%, rgba(231,226,217,0.2) 75%, rgba(231,226,217,0.08) 88%, rgba(231,226,217,0) 100%)',
+        }}
+      />
 
       <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex flex-col justify-center">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="popLayout">
           <motion.div
             key={current}
             initial={{ opacity: 0, y: 30 }}
@@ -96,6 +103,14 @@ export default function Hero() {
             </div>
           </motion.div>
         </AnimatePresence>
+
+        <div className="mt-10 flex justify-center max-w-2xl">
+          <img
+            src="./logo.png"
+            alt="Miller Construction & Consulting Group"
+            className="h-[102px] sm:h-[141px] lg:h-[179px] w-auto"
+          />
+        </div>
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex items-center gap-3">
