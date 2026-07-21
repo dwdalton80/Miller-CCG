@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Base is '/' because this deploys to a custom domain (millerccg.com),
-// not to a github.io/<repo> subpath. If you ever deploy to a project
-// page without a custom domain, change this to '/<repo-name>/'.
+// Relative base path: resolves correctly whether the site is served from
+// a subpath (e.g. github.io/Miller-CCG/) or the domain root (millerccg.com),
+// so this doesn't need to change when the custom domain goes live.
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: './',
 })
