@@ -4,7 +4,7 @@ import { ArrowRight, Phone } from 'lucide-react'
 
 const SLIDES = [
   {
-    image: '/images/1d3f93a0e_generated_image.png',
+    image: './images/1d3f93a0e_generated_image.png',
     eyebrow: 'Construction Management',
     title: 'Building the Future,\nOne Beam at a Time',
     description:
@@ -12,7 +12,7 @@ const SLIDES = [
     cta: { label: 'Request Consultation', href: '#contact' },
   },
   {
-    image: '/images/0202c947b_generated_9a159799.png',
+    image: './images/0202c947b_generated_9a159799.png',
     eyebrow: 'Strategic Consulting',
     title: 'Precision Planning,\nExpert Guidance',
     description:
@@ -20,7 +20,7 @@ const SLIDES = [
     cta: { label: 'See Consulting Services', href: '#services' },
   },
   {
-    image: '/images/994325ea3_generated_image.png',
+    image: './images/994325ea3_generated_image.png',
     eyebrow: '24/7 Emergency Response',
     title: 'Restoring What\nMatters Most',
     description:

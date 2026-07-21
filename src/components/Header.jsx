@@ -29,7 +29,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#hero" className="flex items-center group">
           <img
-            src="/logo.png"
+            src="./logo.png"
             alt="Miller Construction & Consulting Group"
             className="h-14 w-auto group-hover:opacity-90 transition-opacity duration-300"
           />

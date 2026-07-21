@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <div className="mb-4">
-              <img src="/logo-bronze.png" alt="Miller Construction & Consulting Group" className="h-16 w-auto" />
+              <img src="./logo-bronze.png" alt="Miller Construction & Consulting Group" className="h-16 w-auto" />
             </div>
             <p className="text-muted text-sm leading-relaxed max-w-sm">
               Expert construction, consulting, and 24/7 emergency fire restoration services across

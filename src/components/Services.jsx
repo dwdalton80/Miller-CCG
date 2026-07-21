@@ -5,7 +5,7 @@ const SERVICES = [
   {
     tag: 'Build',
     title: 'Construction',
-    image: '/images/3e01981cd_generated_image.png',
+    image: './images/3e01981cd_generated_image.png',
     description:
       'Comprehensive residential building projects from structural framing to high-end finishes, ensuring architectural excellence at every milestone.',
     points: [
@@ -18,7 +18,7 @@ const SERVICES = [
   {
     tag: 'Advise',
     title: 'Consulting',
-    image: '/images/71e90c069_generated_268c7b41.png',
+    image: './images/71e90c069_generated_268c7b41.png',
     description:
       'Strategic advisory and technical guidance for property owners and developers seeking expert recovery and build solutions.',
     points: [
@@ -31,7 +31,7 @@ const SERVICES = [
   {
     tag: 'Respond',
     title: 'Fire Restoration',
-    image: '/images/930e70569_generated_image.png',
+    image: './images/930e70569_generated_image.png',
     description:
       '24/7 emergency fire and smoke damage recovery — rapid response, structural stabilization, and full reconstruction to bring your property back.',
     points: [

@@ -52,7 +52,7 @@ export default function About() {
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <img
-                src="/images/62849875a_generated_image.png"
+                src="./images/62849875a_generated_image.png"
                 alt="Miller Construction residential site at golden hour"
                 className="w-full h-full object-cover"
               />

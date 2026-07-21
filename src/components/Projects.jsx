@@ -3,7 +3,7 @@ import { MapPin, Maximize, DollarSign } from 'lucide-react'
 
 const PROJECTS = [
   {
-    image: '/images/bf8e792d6_generated_1d83fd46.png',
+    image: './images/bf8e792d6_generated_1d83fd46.png',
     title: 'Corporate Tower Build-Out',
     category: 'Commercial Construction',
     location: 'Dallas, TX',
@@ -11,7 +11,7 @@ const PROJECTS = [
     budget: '$12M',
   },
   {
-    image: '/images/00651716f_generated_ff730b5f.png',
+    image: './images/00651716f_generated_ff730b5f.png',
     title: 'Historic Home Restoration',
     category: 'Fire Restoration',
     location: 'Fort Worth, TX',
@@ -19,7 +19,7 @@ const PROJECTS = [
     budget: '$850K',
   },
   {
-    image: '/images/9cb25278e_generated_4ccbbb95.png',
+    image: './images/9cb25278e_generated_4ccbbb95.png',
     title: 'Industrial Warehouse Complex',
     category: 'Construction & Consulting',
     location: 'Plano, TX',
