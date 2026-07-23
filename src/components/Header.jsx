@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const NAV_ITEMS = [
   { id: 'services', label: 'Services' },
-  { id: 'projects', label: 'Projects' },
   { id: 'about', label: 'About' },
   { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Contact' },
@@ -27,13 +26,16 @@ export default function Header() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-        <a href="#hero" className="flex flex-col items-start leading-none group">
-          <span className="font-display text-2xl sm:text-3xl font-bold uppercase tracking-[0.12em] text-bronze group-hover:text-bronze-light transition-colors duration-300">
-            Miller
-          </span>
-          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.25em] text-foreground mt-1">
-            Construction &amp; Consulting Group
-          </span>
+        <a href="#hero" className="flex items-center gap-3 group">
+          <img src="./bronze-logo.png" alt="" className="h-10 sm:h-12 w-auto shrink-0" />
+          <div className="flex flex-col items-start leading-none">
+            <span className="font-display text-2xl sm:text-3xl font-bold uppercase tracking-[0.12em] text-bronze group-hover:text-bronze-light transition-colors duration-300">
+              Miller
+            </span>
+            <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.25em] text-foreground mt-1">
+              Construction &amp; Consulting Group
+            </span>
+          </div>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

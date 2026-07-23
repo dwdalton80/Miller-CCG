@@ -6,7 +6,7 @@ import { Plus } from 'lucide-react'
 const FAQS = [
   {
     q: 'How fast can you respond to a fire or water damage emergency?',
-    a: 'Our restoration crews aim to be on-site within minutes of your call, 24 hours a day, 7 days a week, anywhere in the Dallas-Fort Worth service area.',
+    a: 'Our restoration crews aim to be on-site within minutes of your call, 24 hours a day, 7 days a week, anywhere across Texas and Oklahoma, with priority response in North Texas.',
   },
   {
     q: 'Do you work directly with my insurance company?',
@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     q: 'What areas do you serve?',
-    a: 'We serve Dallas, Fort Worth, Plano, Arlington, Irving, Sherman, McKinney, and the surrounding Dallas-Fort Worth area.',
+    a: 'We serve clients throughout Texas and Oklahoma, with a primary focus on North Texas — including Dallas, Fort Worth, Plano, Arlington, Irving, Sherman, and McKinney.',
   },
 ]
 

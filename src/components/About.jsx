@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const STATS = [
-  { value: 30, suffix: '+', label: 'Years of Experience' },
-  { value: 100, suffix: '+', label: 'Projects Completed' },
+  { value: 20, suffix: '+', label: 'Years of Experience' },
+  { value: 1000, suffix: '+', label: 'Projects Completed' },
   { value: 24, suffix: '/7', label: 'Emergency Response' },
   { value: 100, suffix: '%', label: 'Client Commitment' },
 ]
@@ -30,7 +30,7 @@ function Counter({ value, suffix }) {
 
   return (
     <span ref={ref}>
-      {count}
+      {count.toLocaleString()}
       {suffix}
     </span>
   )
@@ -73,10 +73,11 @@ export default function About() {
               A foundation built on trust, precision, and relentless craftsmanship.
             </h2>
             <p className="text-muted leading-relaxed mb-5">
-              Miller Construction &amp; Consulting Group has served the Greater Dallas-Fort Worth
-              area with an uncompromising standard of quality. From emergency fire restoration to
-              large-scale construction and strategic consulting, we bring engineering rigor and a
-              builder's eye to every engagement.
+              Miller Construction &amp; Consulting Group has served clients across Texas and
+              Oklahoma — with a primary focus on North Texas — upholding an uncompromising
+              standard of quality. From emergency fire restoration to large-loss projects and
+              strategic consulting, we bring engineering rigor and a builder's eye to every
+              engagement.
             </p>
             <p className="text-muted leading-relaxed mb-10">
               Our integrated approach means property owners and developers get a single,

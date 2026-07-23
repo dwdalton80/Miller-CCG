@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <div className="mb-4">
-              <img src="./logo-bronze.png" alt="Miller Construction & Consulting Group" className="h-16 w-auto" />
+              <img src="./bronze-logo.png" alt="Miller Construction & Consulting Group" className="h-14 w-auto" />
             </div>
             <p className="text-muted text-sm leading-relaxed max-w-sm">
               Expert construction, consulting, and 24/7 emergency fire restoration services across
-              the Greater Dallas-Fort Worth area.
+              Texas and Oklahoma, with a primary focus on North Texas.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <span className="flex-1 h-px bg-bronze/40" />
@@ -25,8 +25,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-muted">
               <li><a href="#services" className="hover:text-bronze transition-colors">Construction</a></li>
               <li><a href="#services" className="hover:text-bronze transition-colors">Consulting</a></li>
-              <li><a href="#services" className="hover:text-bronze transition-colors">Fire Restoration</a></li>
-              <li><a href="#contact" className="hover:text-bronze transition-colors">Emergency Response</a></li>
+              <li><a href="#services" className="hover:text-bronze transition-colors">24/7 Emergency Response</a></li>
             </ul>
           </div>
 
@@ -34,9 +33,9 @@ export default function Footer() {
             <h4 className="text-xs uppercase tracking-[0.25em] text-foreground font-semibold mb-5">Contact</h4>
             <ul className="space-y-4 text-sm text-muted">
               <li>
-                <a href="tel:8006455377" className="flex items-center gap-3 hover:text-bronze transition-colors">
+                <a href="tel:4699626224" className="flex items-center gap-3 hover:text-bronze transition-colors">
                   <Phone className="w-4 h-4 text-bronze shrink-0" />
-                  800-Miller-Restores
+                  469-962-MCCG (6224)
                 </a>
               </li>
               <li>
@@ -47,7 +46,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-bronze shrink-0 mt-0.5" />
-                Serving Dallas · Fort Worth · Plano · Arlington · Irving
+                <span>539 W Commerce St, Suite 2393, Dallas, TX 75208</span>
               </li>
             </ul>
           </div>

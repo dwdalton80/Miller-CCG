@@ -94,11 +94,11 @@ export default function Hero() {
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a
-                href="tel:8006455377"
+                href="tel:4699626224"
                 className="inline-flex items-center gap-2 border border-border hover:border-bronze text-foreground hover:text-bronze px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300"
               >
                 <Phone className="w-4 h-4" />
-                800-Miller-Restores
+                469-962-MCCG (6224)
               </a>
             </div>
           </motion.div>

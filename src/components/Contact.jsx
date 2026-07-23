@@ -6,12 +6,17 @@ import { Phone, Mail, MapPin, Clock, Send, CheckCircle2 } from 'lucide-react'
 const FORM_ENDPOINT = 'https://formspree.io/f/mpqvlevv'
 
 const CONTACT_INFO = [
-  { icon: Phone, label: '24/7 Emergency Line', value: '800-Miller-Restores', href: 'tel:8006455377' },
+  { icon: Phone, label: '24/7 Emergency Line', value: '469-962-MCCG (6224)', href: 'tel:4699626224' },
   { icon: Mail, label: 'Email', value: 'info@millerccg.com', href: 'mailto:info@millerccg.com' },
   {
     icon: MapPin,
+    label: 'Office Address',
+    value: '539 W Commerce St, Suite 2393, Dallas, TX 75208',
+  },
+  {
+    icon: MapPin,
     label: 'Service Area',
-    value: 'Dallas · Fort Worth · Plano · Arlington · Irving · Sherman · McKinney',
+    value: 'Texas & Oklahoma — with a primary focus on North Texas',
   },
   { icon: Clock, label: 'Hours', value: 'Office: Mon–Fri 8am–6pm · Emergency: 24/7' },
 ]
@@ -52,10 +57,10 @@ export default function Contact() {
         setSuccess(true)
         form.reset()
       } else {
-        setError('Something went wrong. Please call 800-Miller-Restores.')
+        setError('Something went wrong. Please call 469-962-MCCG (6224).')
       }
     } catch {
-      setError('Something went wrong. Please call 800-Miller-Restores.')
+      setError('Something went wrong. Please call 469-962-MCCG (6224).')
     } finally {
       setSubmitting(false)
     }

@@ -20,7 +20,7 @@ const SERVICES = [
     title: 'Consulting',
     image: './images/71e90c069_generated_268c7b41.png',
     description:
-      'Strategic advisory and technical guidance for property owners and developers seeking expert recovery and build solutions.',
+      'Strategic advisory and technical guidance for property owners and business owners seeking expert recovery and build solutions.',
     points: [
       'Feasibility & cost analysis',
       'Recovery strategy & planning',
@@ -30,15 +30,16 @@ const SERVICES = [
   },
   {
     tag: 'Respond',
-    title: 'Fire Restoration',
+    title: '24/7 Emergency Response',
     image: './images/930e70569_generated_image.png',
     description:
-      '24/7 emergency fire and smoke damage recovery — rapid response, structural stabilization, and full reconstruction to bring your property back.',
+      '24/7 emergency fire, water damage, and asbestos remediation — rapid response, structural stabilization, and full reconstruction to bring your property back.',
     points: [
       '24/7 emergency response',
-      'Smoke & soot remediation',
-      'Structural stabilization',
-      'Full reconstruction & finishing',
+      'Fire, smoke & soot remediation',
+      'Water damage mitigation',
+      'Asbestos remediation',
+      'Structural stabilization & full reconstruction',
     ],
   },
 ]
