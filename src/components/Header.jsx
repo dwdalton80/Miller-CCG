@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const NAV_ITEMS = [
   { id: 'services', label: 'Services' },
   { id: 'about', label: 'About' },
+  { id: 'service-areas', label: 'Areas' },
   { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Contact' },
 ]
