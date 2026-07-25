@@ -3,6 +3,23 @@ import { ArrowUpRight, Check } from 'lucide-react'
 
 const SERVICES = [
   {
+    tag: 'Respond',
+    title: '24/7 Emergency Response',
+    image: './images/930e70569_generated_image.webp',
+    alt: '24/7 disaster and property restoration crew responding to water and fire damage on-site',
+    description:
+      '24/7 disaster and property restoration — water damage restoration, fire and smoke damage restoration, storm and flood damage repair, mold remediation, and biohazard cleanup, fully coordinated with your insurance from first response through reconstruction.',
+    points: [
+      'Emergency water extraction & water damage restoration',
+      'Fire, smoke damage restoration & odor removal',
+      'Storm & flood damage repair',
+      'Mold remediation & removal',
+      'Biohazard & sewage cleanup',
+      'Structural drying, contents cleaning & pack-out services',
+      'Insurance-coordinated reconstruction services',
+    ],
+  },
+  {
     tag: 'Build',
     title: 'Construction',
     image: './images/3e01981cd_generated_image.webp',
@@ -28,23 +45,6 @@ const SERVICES = [
       'Recovery strategy & planning',
       'Technical advisory services',
       'Developer & owner representation',
-    ],
-  },
-  {
-    tag: 'Respond',
-    title: '24/7 Emergency Response',
-    image: './images/930e70569_generated_image.webp',
-    alt: '24/7 disaster and property restoration crew responding to water and fire damage on-site',
-    description:
-      '24/7 disaster and property restoration — water damage restoration, fire and smoke damage restoration, storm and flood damage repair, mold remediation, and biohazard cleanup, fully coordinated with your insurance from first response through reconstruction.',
-    points: [
-      'Emergency water extraction & water damage restoration',
-      'Fire, smoke damage restoration & odor removal',
-      'Storm & flood damage repair',
-      'Mold remediation & removal',
-      'Biohazard & sewage cleanup',
-      'Structural drying, contents cleaning & pack-out services',
-      'Insurance-coordinated reconstruction services',
     ],
   },
 ]

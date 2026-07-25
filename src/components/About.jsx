@@ -77,9 +77,9 @@ export default function About() {
             <p className="text-muted leading-relaxed mb-5">
               Miller Construction &amp; Consulting Group has served clients across Texas and
               Oklahoma — with a primary focus on North Texas — upholding an uncompromising
-              standard of quality. From emergency fire restoration to large-loss projects and
-              strategic consulting, we bring engineering rigor and a builder's eye to every
-              engagement.
+              standard of quality. From emergency water damage restoration and fire damage
+              restoration to large-loss reconstruction and strategic consulting, we bring
+              engineering rigor and a builder's eye to every engagement.
             </p>
             <p className="text-muted leading-relaxed mb-10">
               Our integrated approach means property owners and developers get a single,

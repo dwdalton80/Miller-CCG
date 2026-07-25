@@ -145,13 +145,13 @@ export default function Contact() {
                     Service Type *
                   </label>
                   <div className="flex flex-wrap gap-2">
-                    {['Fire Restoration', 'Construction', 'Consulting'].map((opt, i) => (
+                    {['24/7 Emergency Response', 'Construction', 'Consulting'].map((opt, i) => (
                       <label key={opt} className="cursor-pointer">
                         <input
                           type="radio"
                           name="serviceType"
                           value={opt}
-                          defaultChecked={i === 1}
+                          defaultChecked={i === 0}
                           className="peer sr-only"
                         />
                         <span className="inline-block px-4 py-2 text-sm border border-border text-muted peer-checked:bg-bronze peer-checked:text-background peer-checked:border-bronze transition-all">

@@ -5,16 +5,20 @@ import { Plus } from 'lucide-react'
 // NOTE: placeholder copy — confirm/replace with Miller CCG's real policies.
 const FAQS = [
   {
-    q: 'How fast can you respond to a fire or water damage emergency?',
-    a: 'Our restoration crews aim to be on-site within minutes of your call, 24 hours a day, 7 days a week, anywhere across Texas and Oklahoma, with priority response in North Texas.',
+    q: 'How fast can you respond to a water, fire, or storm damage emergency?',
+    a: 'Our restoration crews aim to be on-site within minutes of your call for water damage restoration, fire damage restoration, or storm damage repair — 24 hours a day, 7 days a week, anywhere across Texas and Oklahoma, with priority response in North Texas.',
+  },
+  {
+    q: 'What types of property damage do you restore?',
+    a: 'We handle water damage restoration and emergency water extraction, fire and smoke damage restoration, storm and flood damage repair, mold remediation, and biohazard and sewage cleanup — plus structural drying, odor removal, contents cleaning, and pack-out services for both commercial and residential properties.',
   },
   {
     q: 'Do you work directly with my insurance company?',
-    a: 'Yes. We document all damage and mitigation work as we go and coordinate directly with your adjuster to help keep your claim moving.',
+    a: 'Yes. We document all damage and mitigation work as we go and coordinate directly with your adjuster to help keep your insurance restoration claim moving.',
   },
   {
     q: 'Can the same team handle both restoration and rebuilding?',
-    a: 'Yes — that\u2019s the point of having construction and restoration under one roof. The same project manager can carry your property from mitigation through the full rebuild.',
+    a: 'Yes — that\u2019s the point of having construction and restoration under one roof. The same project manager can carry your property from mitigation through full reconstruction services.',
   },
   {
     q: 'Do you offer free estimates for construction and consulting projects?',
