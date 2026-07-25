@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin } from 'lucide-react'
+import { homeAnchor } from '../utils/homeAnchor.js'
 
 export default function Footer() {
   return (
@@ -23,10 +24,10 @@ export default function Footer() {
           <div>
             <h4 className="text-xs uppercase tracking-[0.25em] text-foreground font-semibold mb-5">Services</h4>
             <ul className="space-y-3 text-sm text-muted">
-              <li><a href="#services" className="hover:text-bronze transition-colors">Construction</a></li>
-              <li><a href="#services" className="hover:text-bronze transition-colors">Consulting</a></li>
-              <li><a href="#services" className="hover:text-bronze transition-colors">24/7 Emergency Response</a></li>
-              <li><a href="#service-areas" className="hover:text-bronze transition-colors">Service Areas</a></li>
+              <li><a href={homeAnchor('services')} className="hover:text-bronze transition-colors">Construction</a></li>
+              <li><a href={homeAnchor('services')} className="hover:text-bronze transition-colors">Consulting</a></li>
+              <li><a href={homeAnchor('services')} className="hover:text-bronze transition-colors">24/7 Emergency Response</a></li>
+              <li><a href={homeAnchor('service-areas')} className="hover:text-bronze transition-colors">Service Areas</a></li>
             </ul>
           </div>
 
@@ -57,9 +58,9 @@ export default function Footer() {
           <p className="text-xs text-muted">
             © {new Date().getFullYear()} Miller Construction &amp; Consulting Group, LLC. All rights reserved.
           </p>
-          <div className="flex items-center gap-6 text-xs text-muted">
-            <a href="#" className="hover:text-bronze transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-bronze transition-colors">Terms of Service</a>
+          <div className="flex items-center gap-6 text-xs text-muted sm:mr-44">
+            <a href="./privacy-policy.html" className="hover:text-bronze transition-colors">Privacy Policy</a>
+            <a href="./terms-of-service.html" className="hover:text-bronze transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

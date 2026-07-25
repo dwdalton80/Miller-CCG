@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Menu, X, Phone } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { homeAnchor } from '../utils/homeAnchor.js'
 
 const NAV_ITEMS = [
   { id: 'services', label: 'Services' },
@@ -27,7 +28,7 @@ export default function Header() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-        <a href="#hero" className="flex items-center gap-3 group">
+        <a href={homeAnchor('hero')} className="flex items-center gap-3 group">
           <img src="./bronze-logo.png" alt="" className="h-10 sm:h-12 w-auto shrink-0" />
           <div className="flex flex-col items-start leading-none">
             <span className="font-display text-2xl sm:text-3xl font-bold uppercase tracking-[0.12em] text-bronze group-hover:text-bronze-light transition-colors duration-300">
@@ -43,7 +44,7 @@ export default function Header() {
           {NAV_ITEMS.map((item) => (
             <a
               key={item.id}
-              href={`#${item.id}`}
+              href={homeAnchor(item.id)}
               className="text-sm font-medium text-foreground hover:text-bronze transition-colors duration-300 relative group"
             >
               {item.label}
@@ -51,7 +52,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#contact"
+            href={homeAnchor('contact')}
             className="inline-flex items-center gap-2 bg-bronze hover:bg-bronze-light text-background px-5 py-2.5 text-sm font-semibold tracking-wide ring-1 ring-black/20 shadow-lg shadow-black/30 transition-all duration-300"
           >
             <Phone className="w-4 h-4" />
@@ -77,7 +78,7 @@ export default function Header() {
               {NAV_ITEMS.map((item) => (
                 <a
                   key={item.id}
-                  href={`#${item.id}`}
+                  href={homeAnchor(item.id)}
                   onClick={() => setOpen(false)}
                   className="text-base font-medium text-foreground hover:text-bronze transition-colors"
                 >
@@ -85,7 +86,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="#contact"
+                href={homeAnchor('contact')}
                 onClick={() => setOpen(false)}
                 className="inline-flex items-center justify-center gap-2 bg-bronze hover:brightness-110 text-background px-5 py-3 text-sm font-semibold transition-all duration-300"
               >
