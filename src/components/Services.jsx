@@ -5,7 +5,8 @@ const SERVICES = [
   {
     tag: 'Build',
     title: 'Construction',
-    image: './images/3e01981cd_generated_image.png',
+    image: './images/3e01981cd_generated_image.webp',
+    alt: 'Commercial and residential construction project in North Texas',
     description:
       'Comprehensive residential building projects from structural framing to high-end finishes, ensuring architectural excellence at every milestone.',
     points: [
@@ -18,7 +19,8 @@ const SERVICES = [
   {
     tag: 'Advise',
     title: 'Consulting',
-    image: './images/71e90c069_generated_268c7b41.png',
+    image: './images/71e90c069_generated_268c7b41.webp',
+    alt: 'Construction consulting and planning blueprints for a North Texas project',
     description:
       'Strategic advisory and technical guidance for property owners and business owners seeking expert recovery and build solutions.',
     points: [
@@ -31,7 +33,8 @@ const SERVICES = [
   {
     tag: 'Respond',
     title: '24/7 Emergency Response',
-    image: './images/930e70569_generated_image.png',
+    image: './images/930e70569_generated_image.webp',
+    alt: '24/7 emergency fire, water, and asbestos restoration crew on-site',
     description:
       '24/7 emergency fire, water damage, and asbestos remediation — rapid response, structural stabilization, and full reconstruction to bring your property back.',
     points: [
@@ -76,7 +79,9 @@ export default function Services() {
               <div className="relative h-72 overflow-hidden">
                 <img
                   src={s.image}
-                  alt={s.title}
+                  alt={s.alt}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/40 to-transparent" />

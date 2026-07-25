@@ -52,8 +52,10 @@ export default function About() {
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <img
-                src="./images/62849875a_generated_image.png"
-                alt="Miller Construction residential site at golden hour"
+                src="./images/62849875a_generated_image.webp"
+                alt="Miller Construction & Consulting Group residential job site in North Texas at golden hour"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>
