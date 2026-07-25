@@ -4,6 +4,7 @@ import Services from './components/Services.jsx'
 // import Projects from './components/Projects.jsx' // removed for now, may add back later
 import About from './components/About.jsx'
 import ServiceAreas from './components/ServiceAreas.jsx'
+import Reviews from './components/Reviews.jsx'
 import FAQ from './components/FAQ.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
@@ -18,6 +19,7 @@ export default function App() {
         <Services />
         <About />
         <ServiceAreas />
+        <Reviews />
         <FAQ />
         <Contact />
       </main>
