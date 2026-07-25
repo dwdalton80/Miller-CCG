@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     q: 'What areas do you serve?',
-    a: 'We serve clients throughout Texas and Oklahoma, with a primary focus on North Texas — including Dallas, Fort Worth, Plano, Arlington, Irving, Sherman, and McKinney.',
+    a: 'We serve clients throughout Texas and Oklahoma, with a primary focus on North Texas — including Dallas, Fort Worth, Plano, Arlington, Irving, Sherman/Denison, McKinney, and Durant, OK.',
   },
 ]
 

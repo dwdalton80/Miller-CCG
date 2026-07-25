@@ -4,31 +4,43 @@ import { MapPin } from 'lucide-react'
 const AREAS = [
   {
     city: 'Dallas',
+    state: 'TX',
     blurb: 'Our home base — commercial construction, consulting, and rapid-response restoration across the metro’s urban core.',
   },
   {
     city: 'Fort Worth',
+    state: 'TX',
     blurb: 'From new residential builds to historic property restoration, we bring the same standard west of the Trinity.',
   },
   {
     city: 'Plano',
+    state: 'TX',
     blurb: 'Commercial construction and strategic consulting for one of North Texas’s fastest-growing business corridors.',
   },
   {
     city: 'Arlington',
+    state: 'TX',
     blurb: 'Construction management and 24/7 emergency restoration for homeowners and businesses across Arlington.',
   },
   {
     city: 'Irving',
+    state: 'TX',
     blurb: 'Full-service construction and rapid restoration support for Irving’s mix of commercial and residential properties.',
   },
   {
-    city: 'Sherman',
-    blurb: 'Extending our North Texas footprint north with construction and emergency response coverage in Sherman.',
+    city: 'Sherman/Denison',
+    state: 'TX',
+    blurb: 'Extending our North Texas footprint north with construction and emergency response coverage across Sherman and Denison.',
   },
   {
     city: 'McKinney',
+    state: 'TX',
     blurb: 'Residential construction, consulting, and rapid restoration response for McKinney’s growing communities.',
+  },
+  {
+    city: 'Durant',
+    state: 'OK',
+    blurb: 'Bringing our construction, consulting, and 24/7 restoration services across the state line into Durant and southern Oklahoma.',
   },
 ]
 
@@ -65,7 +77,7 @@ export default function ServiceAreas() {
             >
               <div className="flex items-center gap-3 mb-3">
                 <MapPin className="w-4 h-4 text-bronze shrink-0" />
-                <h3 className="font-display text-xl font-bold text-foreground">{a.city}, TX</h3>
+                <h3 className="font-display text-xl font-bold text-foreground">{a.city}, {a.state}</h3>
               </div>
               <p className="text-sm text-muted leading-relaxed">{a.blurb}</p>
             </motion.div>
