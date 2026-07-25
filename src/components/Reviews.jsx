@@ -71,7 +71,7 @@ export default function Reviews() {
           </a>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="space-y-6">
           {REVIEWS.map((r, i) => (
             <motion.div
               key={r.name}
@@ -79,15 +79,17 @@ export default function Reviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="border border-border bg-card p-8"
+              className="border border-border bg-card p-8 lg:p-12 flex flex-col md:flex-row gap-8 md:gap-12"
             >
-              <div className="flex items-center justify-between mb-4">
-                <Stars rating={r.rating} />
-                <GoogleLogo className="w-5 h-5" />
+              <div className="flex md:flex-col items-center md:items-start justify-between md:justify-start gap-3 md:gap-4 md:w-52 shrink-0 md:border-r md:border-border md:pr-8">
+                <GoogleLogo className="w-8 h-8" />
+                <div className="md:mt-1">
+                  <Stars rating={r.rating} />
+                  <p className="mt-3 text-sm font-semibold text-foreground">{r.name}</p>
+                  <p className="text-xs text-muted">Posted on Google</p>
+                </div>
               </div>
-              <p className="text-muted leading-relaxed">"{r.text}"</p>
-              <p className="mt-6 text-sm font-semibold text-foreground">{r.name}</p>
-              <p className="text-xs text-muted">Posted on Google</p>
+              <p className="flex-1 text-lg text-muted leading-relaxed">"{r.text}"</p>
             </motion.div>
           ))}
         </div>
