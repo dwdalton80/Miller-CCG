@@ -7,6 +7,12 @@ const REVIEW_URL =
 
 const REVIEWS = [
   {
+    name: 'Art Miller',
+    rating: 5,
+    text:
+      'Their crew came in and immediately corrected the cause of the problem. (It was a flood in the kitchen.) They were diligent. They cleaned up after themselves.',
+  },
+  {
     name: 'Tonya Cote',
     rating: 5,
     text:
