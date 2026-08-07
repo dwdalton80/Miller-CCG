@@ -1,11 +1,16 @@
 import { motion } from 'framer-motion'
-import { Star, PenLine } from 'lucide-react'
+import { Star, PenLine, ArrowRight } from 'lucide-react'
 import GoogleLogo from './GoogleLogo.jsx'
 
 const REVIEW_URL =
   'https://www.google.com/maps/place/Miller+Construction+%26+Consulting+Group,+LLC/data=!4m8!3m7!1s0x864e99daeff2d2f7:0x1fd1c895f1c872e6!8m2!3d32.7733009!4d-96.833338!9m1!1b1!16s%2Fg%2F11zgvw0dzk'
 
 const REVIEWS = [
+  {
+    name: 'Dale Marable',
+    rating: 5,
+    text: "Very knowledgeable and helpful person. He won't disappoint.",
+  },
   {
     name: 'Art Miller',
     rating: 5,
@@ -99,6 +104,24 @@ export default function Reviews() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-10 flex justify-center"
+        >
+          <a
+            href={REVIEW_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-bronze hover:text-bronze-light transition-colors group"
+          >
+            View More Reviews
+            <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+          </a>
+        </motion.div>
       </div>
     </section>
   )
